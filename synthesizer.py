@@ -84,7 +84,7 @@ if __name__ == '__main__':
                         help="Output .wav file path."),
     parser.add_argument('--speaker', type=str, required=True,
                         help="The name of the speaker to use for synthesis.")
-    parser.add_argument('--speed', type=int, default=1,
+    parser.add_argument('--speed', type=float, default=1,
                         help="Output speed multiplier.")
     parser.add_argument('--config', type=FileType('r'), default='config.yaml',
                         help="The config file to load.")

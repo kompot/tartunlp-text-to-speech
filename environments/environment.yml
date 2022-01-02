@@ -9,7 +9,6 @@ dependencies:
   - librosa==0.7.1
   - numpy==1.17.4
   - ruamel.yaml==0.16.6
-  - tensorflow=2.2.0
   - pysoundfile
   - scipy
   - nltk
@@ -19,6 +18,7 @@ dependencies:
   - pyyaml>=5.4.1
   - pip
   - pip:
+      - tensorflow==2.2.0
       - webrtcvad
       - pyworld
       - phonemizer==2.2.1
